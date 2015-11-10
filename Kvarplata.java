@@ -1,7 +1,7 @@
 private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
 
 JFileChooser open = new JFileChooser(); //cоздадим диалог выбора файлов
-int option = open.showOpenDialog(open); //отобразим окно выбора файлов
+int option = open.showOpenDialog(open);
 
 if (option == JFileChooser.APPROVE_OPTION) { //если файл выбран, тогда
    try {
