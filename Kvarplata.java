@@ -119,7 +119,7 @@ private void Raschet(){
         dd=new java.text.DecimalFormat("0.00").format(ddd);   
         //меняем "," на ".Э
         dd=dd.replace(",",".");
-        //отображаем итоговую сумму на форме
+        //отображаем
         frmJkx.this.jTextField19.setText(dd);
         
         return;
