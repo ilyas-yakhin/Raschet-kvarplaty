@@ -68,7 +68,7 @@ private void Raschet(){
         dd=dd.replace(",",".");
         //отображаем сумму на форме в расчетах
         frmJkx.this.jTextField4.setText(dd);
-        //итоговая накопительная сумма
+        //итоговая накопительная
         ddd=d;
         //2.Холодная вода        
         if(frmJkx.this.jTextField9.getText().trim().equals("")){
