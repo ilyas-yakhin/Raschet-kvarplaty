@@ -23,7 +23,7 @@ if (option == JFileChooser.APPROVE_OPTION) { //если файл выбран, �
                
        bufferedIn.close(); in.close(); //закрываем поток
        
-       //отображаем на форме 
+       //отображаем
        jTextField5.setText(p[1]);jTextField8.setText(p[2]);jTextField11.setText(p[3]);
        jTextField14.setText(p[4]);jTextField17.setText(p[5]);
        //поля с результатами очищаем     
