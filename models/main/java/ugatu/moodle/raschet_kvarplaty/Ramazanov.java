@@ -7,7 +7,7 @@ private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
 }     
       (frmJkx.this.jTextField14.getText().trim().equals(""))||
       (frmJkx.this.jTextField17.getText().trim().equals(""))){
-      //если хотя бы одно из полей, выделенных под тарифы, незаполнено,выводим ошибку 
+      //если хотя бы одно из полей, незаполнено,выводим ошибку 
        JOptionPane.showMessageDialog(null, "Не введены тарифы!");   
     }else{
         //переменные  
