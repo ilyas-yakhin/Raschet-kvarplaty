@@ -66,7 +66,7 @@ private void Raschet(){
           //если не 0, считаем по формуле  
           d = Double.parseDouble(frmJkx.this.jTextField5.getText())*Double.parseDouble(frmJkx.this.jTextField6.getText());    
         }  
-        //переводим в число формата 0,00
+        //переводим в число
         dd=new java.text.DecimalFormat("0.00").format(d);   
         //меняем "," на "."
         dd=dd.replace(",",".");
