@@ -127,7 +127,7 @@ private void Raschet(){
 }
         
 private void formWindowClosed(java.awt.event.WindowEvent evt) {                                  
-   //Завершение программы при закрытии окна
+   //Завершение программы
     System.exit(0);
 }                                 
 
