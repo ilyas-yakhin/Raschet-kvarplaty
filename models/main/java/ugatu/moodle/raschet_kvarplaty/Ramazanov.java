@@ -22,7 +22,7 @@ private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
           //если не 0, считаем по формуле  
     public static void main(String args[]) {
 
-        /* Create and display the form */
+                /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
         public void run() {
         new frmJkx().setLocation(1000,1000);
