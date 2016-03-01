@@ -77,10 +77,10 @@ private void Raschet(){
         //2.Холодная вода        
         if(frmJkx.this.jTextField9.getText().trim().equals("")){
           d=0.00;             
-        }else{
-          d = Double.parseDouble(frmJkx.this.jTextField8.getText())*Double.parseDouble(frmJkx.this.jTextField9.getText());    
-        }  
-        dd=new java.text.DecimalFormat("0.00").format(d);   
+private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+   //процедура расчета
+   Raschet();
+        java.text.DecimalFormat("0.00").format(d);   
         dd=dd.replace(",",".");
         frmJkx.this.jTextField7.setText(dd);
         ddd=ddd+d;
