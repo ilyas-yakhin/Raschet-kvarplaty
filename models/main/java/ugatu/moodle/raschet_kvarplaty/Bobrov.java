@@ -82,12 +82,12 @@ private void Raschet(){
         ddd=ddd+d;
         //3.Электричество        
 
-        if(frmJkx.this.jTextField12.getText().trim().equals("")){
+                if(frmJkx.this.jTextField12.getText().trim().equals("")){
           d=0.00;    
         }else{
           d = Double.parseDouble(frmJkx.this.jTextField11.getText())*Double.parseDouble(frmJkx.this.jTextField12.getText());    
         }  
-        dd=new java.text.DecimalFormat("0.00").format(d); 
+        dd=new java.text.DecimalFormat("0.00").format(d);
         dd=dd.replace(",",".");
         frmJkx.this.jTextField10.setText(dd);
         ddd=ddd+d;
@@ -102,8 +102,7 @@ d = Double.parseDouble(frmJkx.this.jTextField14.getText())*Double.parseDouble(fr
         frmJkx.this.jTextField13.setText(dd);
         ddd=ddd+d;
         //5.Интернет
-if(frmJkx.this.jTextField18.getText().trim().equals("")){
-          d=0.00;    
+private void formWindowClosed(java.awt.event.WindowEvent evt) {                                  
         }else{
           d = Double.parseDouble(frmJkx.this.jTextField17.getText())*Double.parseDouble(frmJkx.this.jTextField18.getText());    
         }
