@@ -41,12 +41,12 @@ private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
 }     
 private void Raschet(){
 
-   if((frmJkx.this.jTextField5.getText().trim().equals(""))||
+      if((frmJkx.this.jTextField5.getText().trim().equals(""))||
       (frmJkx.this.jTextField8.getText().trim().equals(""))||
       (frmJkx.this.jTextField11.getText().trim().equals(""))||
       (frmJkx.this.jTextField14.getText().trim().equals(""))||
       (frmJkx.this.jTextField17.getText().trim().equals(""))){
-      //если хотя бы одно из полей, выделенных под тарифы, незаполнено,выводим ошибку 
+      //если хотя бы одно из полей, выделенных под тарифы, незаполнено,выводим ошибку
        JOptionPane.showMessageDialog(null, "Не введены тарифы!");   
     }else{
         //переменные  
@@ -54,10 +54,10 @@ private void Raschet(){
         d=0.00; dd=""; ddd=0.00;
         //Расчет
 
-        //1.Горячая вода 
-        if(frmJkx.this.jTextField6.getText().trim().equals("")){ //если показания счетчика 0, тогда 
+        //1.Горячая вода
+        if(frmJkx.this.jTextField6.getText().trim().equals("")){ //если показания счетчика 0, тогда
           d=0.00;             
-        }else{
+        }else
           //если не 0, считаем по формуле  
           d = Double.parseDouble(frmJkx.this.jTextField5.getText())*Double.parseDouble(frmJkx.this.jTextField6.getText());    
 
